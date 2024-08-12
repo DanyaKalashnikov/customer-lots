@@ -1,0 +1,53 @@
+.table-header {
+    display: 'block';
+    align-items: 'center';
+}
+
+.button-green {
+    background: #0faa36;
+}
+
+.button-yellow {
+    background: #fdc017;
+}
+
+.button-red {
+    background: #e42e2e;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-container {
+    display: grid;
+    gap: 10px;
+    margin: 15px;
+    width: 500px;
+}
+
+Button {
+    margin: 10px;
+}
+
+.sidebar-custom {
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+    margin-bottom: 20px;
+}
+
+.sidebar-table {
+    margin-top: 20px;
+    overflow-y: auto;
+}
+
+.sidebar-actions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
